@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lili
+  title: Shadcn Svlete
+  description: "A web application that provides UI "
+  tags:
+    - frontend
+    - web
+    - react
+  annotations:
+    github.com/project-slug: ""
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/zoop/lili
+      title: Live Application
+      type: website
+    - url: https://github.com/zoop/lili
+      title: Storybook
+      type: documentation
+spec:
+  type: website
+  lifecycle: production
+  owner: User:default/rtkzoop
+  system: System:default/examples
