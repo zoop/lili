@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: lili
   title: Shadcn Svlete
-  description: "A web application that provides. uI "
+  description: "A web application that provides UI "
   tags:
     - frontend
     - web
