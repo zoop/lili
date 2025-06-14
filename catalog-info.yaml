@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: lili
+  namespace: default
   title: Shadcn Svlete
   description: "A web application that provides UI "
   tags:
@@ -9,6 +10,11 @@ metadata:
     - web
     - react
   annotations:
+    backstage.io/managed-by-location: url:https://github.com/zoop/lili/tree/main/catalog-info.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/zoop/lili/blob/main/catalog-info.yaml
+    backstage.io/view-url: https://github.com/zoop/lili/tree/main/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/zoop/lili/edit/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/zoop/lili/tree/main/
     github.com/project-slug: ""
     backstage.io/techdocs-ref: dir:.
   links:
@@ -23,3 +29,4 @@ spec:
   lifecycle: production
   owner: User:default/rtkzoop
   system: System:default/examples
+  subcomponentOf: Component:default/example-website
