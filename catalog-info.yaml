@@ -9,6 +9,7 @@ metadata:
     - frontend
     - web
     - react
+    - backend
   links:
     - url: https://github.com/zoop/lili
       title: Live Application
@@ -16,10 +17,6 @@ metadata:
     - url: https://github.com/zoop/lili
       title: Storybook
       type: documentation
-    - url: https://jira.com
-      title: Jira
-      type: other
-      icon: ""
 spec:
   type: website
   lifecycle: production
