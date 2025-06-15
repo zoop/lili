@@ -10,13 +10,7 @@ metadata:
     - web
     - react
   annotations:
-    backstage.io/managed-by-location: url:https://github.com/zoop/lili/tree/main/catalog-info.yaml
-    backstage.io/managed-by-origin-location: url:https://github.com/zoop/lili/blob/main/catalog-info.yaml
-    backstage.io/view-url: https://github.com/zoop/lili/tree/main/catalog-info.yaml
-    backstage.io/edit-url: https://github.com/zoop/lili/edit/main/catalog-info.yaml
-    backstage.io/source-location: url:https://github.com/zoop/lili/tree/main/
     github.com/project-slug: ""
-    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://github.com/zoop/lili
       title: Live Application
