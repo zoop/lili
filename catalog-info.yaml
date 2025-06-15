@@ -9,10 +9,6 @@ metadata:
     - frontend
     - web
     - react
-  annotations:
-    GitHub Repository: zoop/lili
-    Jenkins Job: zoopsign
-    SonarQube Project: zs
   links:
     - url: https://github.com/zoop/lili
       title: Live Application
@@ -20,6 +16,10 @@ metadata:
     - url: https://github.com/zoop/lili
       title: Storybook
       type: documentation
+    - url: https://jira.com
+      title: Jira
+      type: other
+      icon: ""
 spec:
   type: website
   lifecycle: production
