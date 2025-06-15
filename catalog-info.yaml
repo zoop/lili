@@ -9,7 +9,6 @@ metadata:
     - frontend
     - web
     - react
-    - backend
   links:
     - url: https://github.com/zoop/lili
       title: Live Application
@@ -22,3 +21,4 @@ spec:
   lifecycle: production
   owner: User:default/rtkzoop
   system: System:default/examples
+  subcomponentOf: Component:default/example-website
